@@ -1,0 +1,5 @@
+py -m venv venv
+venv\Scripts\activate
+pip3 install django
+django-admin startproject core
+python3 manage.py startapp users
