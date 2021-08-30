@@ -9,4 +9,7 @@ venv/
 htmlcov/
 .coverage
 coverage.*
-cache
+.cache
+.pytest_cache/
+.history
+.vscode/*
