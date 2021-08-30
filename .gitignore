@@ -4,6 +4,7 @@ __pycache__
 #Environments
 .venv
 venv/
+.python-version
 
 #Unit test / coverage reports
 htmlcov/
@@ -12,4 +13,6 @@ coverage.*
 .cache
 .pytest_cache/
 .history
+
 .vscode/*
+!.vscode/extensions.json
