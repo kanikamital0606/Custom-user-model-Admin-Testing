@@ -3,3 +3,8 @@ venv\Scripts\activate
 pip3 install django
 django-admin startproject core
 python3 manage.py startapp users
+python manage.py migrate
+python manage.py createsuperuser
+pip install coverage
+coverage run --omit='*/venv/*' manage.py test
+coverage html
